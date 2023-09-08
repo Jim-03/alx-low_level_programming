@@ -11,7 +11,7 @@
 int main(void)
 {
 	int n;
-	it k;
+	int k;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -23,7 +23,7 @@ int main(void)
 	}
 	if (k == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, k)
+		printf("Last digit of %d is %d and is 0\n", n, k);
 	}
 	if (k < 6 && k != 0)
 	{
