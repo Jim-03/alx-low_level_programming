@@ -19,6 +19,8 @@ int main(void)
 		res = f1 + f2;
 		f1 = f2;
 		f2 = res;
+		if (i != 49)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
