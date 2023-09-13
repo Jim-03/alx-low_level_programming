@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int f1, f2, res, i;
+	unsigned long int f1, f2, res, i;
 
 	for (i = 0 ; i < 98 ; i++)
 	{
