@@ -30,7 +30,7 @@ void print_all(const char * const format, ...)
 					printf("%s%f", temp, va_arg(any, double));
 					break;
 				case 's':
-					str = va_arg(list, char *);
+					c = va_arg(any, char *);
 					if (!c)
 						c = "(nil)";
 					printf("%s%s", temp, c);
