@@ -19,7 +19,5 @@ size_t print_listint_safe(const listint_t *head)
 		i++;
 	}
 
-	if (i > 1024)
-		exit(98);
 	return (i);
 }
