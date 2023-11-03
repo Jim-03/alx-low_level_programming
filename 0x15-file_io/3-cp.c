@@ -1,3 +1,4 @@
+#include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -17,7 +18,7 @@
 int main(int argc, char *argv[])
 {
 	const char *from = argv[1];
-	int source = open(from, 0_RDONLY);
+	int source = open(from, O_RDONLY);
 	const char *to = argv[2];
 	int destination = open(to, O_WRONLY | O_CREAT | O_TRUNC, 0644);
 	char buf[1024];
