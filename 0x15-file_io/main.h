@@ -1,5 +1,12 @@
 #include <stddef.h>
 #include <sys/types.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <elf.h>
+#include <string.h>
+#include <errno.h>
 #ifndef MAIN_H
 #define MAIN_H
 
